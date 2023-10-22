@@ -10,5 +10,3 @@ def unique_in_order(sequence):
     for index in sorted(index_delete_sequence, reverse=True):
         del sequence_list[index]
     return sequence_list
-
-print(unique_in_order("AAAABBBCCDAABBB"))
